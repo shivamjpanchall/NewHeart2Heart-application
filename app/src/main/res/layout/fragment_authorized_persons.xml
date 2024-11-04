@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AuthorizedPersonsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="31dp"
+                android:text="Authorized Persons"
+                android:textColor="@color/h2hblue"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/bigtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Hello, We are here with our Authorized Persons who are going to collect/receive the donated items. So you can Trust the person who is going to collect/receive from/to."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintTop_toBottomOf="@+id/ap"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="16dp"
+                android:forceHasOverlappingRendering="true"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bigtext"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/sticker"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Shivam Panchal"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phonecall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="+91 9727721973"
+                    android:textColor="@color/h2hblue" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/sticker3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Dhruti Vasava"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phonecall1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="120dp"
+                    android:text="+91 9978038446"
+                    android:textColor="@color/h2hblue" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="155dp"
+                    android:src="@drawable/sticker2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="155dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Preyash Rana"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phonecall2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="190dp"
+                    android:text="+91 7016924342"
+                    android:textColor="@color/h2hblue" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="225dp"
+                    android:src="@drawable/sticker"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="225dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Parth Bhaidasna"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phonecall3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="260dp"
+                    android:text="+91 6356000036"
+                    android:textColor="@color/h2hblue" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="295dp"
+                    android:src="@drawable/sticker"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="295dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Khushil Mehta"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phonecall4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="330dp"
+                    android:text="+91 7698888244"
+                    android:textColor="@color/h2hblue" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

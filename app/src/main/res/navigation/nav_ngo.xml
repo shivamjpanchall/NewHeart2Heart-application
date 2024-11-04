@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_ngo"
+    app:startDestination="@id/ngoMainFragment">
+
+    <action
+        android:id="@+id/action_forgetPasswordFragment_to_donorSignInFragment2"
+        app:destination="@id/donorSignInFragment" />
+    <fragment
+        android:id="@+id/ngoSignInFragment2"
+        android:name="com.rama.heart2heart.ngos.NgoSignInFragment"
+        android:label="fragment_ngo_sign_in"
+        tools:layout="@layout/fragment_ngo_sign_in" >
+        <action
+            android:id="@+id/action_ngoSignInFragment2_to_ngoSignUpFragment2"
+            app:destination="@id/ngoSignUpFragment2" />
+        <action
+            android:id="@+id/action_ngoSignInFragment2_to_forgetPasswordFragment2"
+            app:destination="@id/forgetPasswordFragment2" />
+        <action
+            android:id="@+id/action_ngoSignInFragment2_to_ngoMainFragment"
+            app:destination="@id/ngoMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ngoSignUpFragment2"
+        android:name="com.rama.heart2heart.ngos.NgoSignUpFragment"
+        android:label="fragment_ngo_sign_up"
+        tools:layout="@layout/fragment_ngo_sign_up" >
+        <action
+            android:id="@+id/action_ngoSignUpFragment2_to_ngoSignInFragment2"
+            app:destination="@id/ngoSignInFragment2" />
+        <action
+            android:id="@+id/action_ngoSignUpFragment2_to_ngoMainFragment"
+            app:destination="@id/ngoMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPasswordFragment2"
+        android:name="com.rama.heart2heart.ForgetPasswordFragment"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" >
+        <action
+            android:id="@+id/action_forgetPasswordFragment2_to_ngoSignInFragment2"
+            app:destination="@id/ngoSignInFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ngoMainFragment"
+        android:name="com.rama.heart2heart.ngos.ngoMainFragment"
+        android:label="fragment_ngo_main"
+        tools:layout="@layout/fragment_ngo_main" >
+        <action
+            android:id="@+id/action_ngoMainFragment_to_ngoSignInFragment2"
+            app:destination="@id/ngoSignInFragment2" />
+        <action
+            android:id="@+id/action_ngoMainFragment_to_ngoSignUpFragment2"
+            app:destination="@id/ngoSignUpFragment2" />
+    </fragment>
+</navigation>

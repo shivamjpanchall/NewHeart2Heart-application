@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ngos.ngoMainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/donorMainImagew"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/main_img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/Login_Buttonw"
+            android:layout_width="213dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginEnd="99dp"
+            android:backgroundTint="@color/h2hgreen"
+            android:text="Login"
+            app:layout_constraintEnd_toEndOf="@+id/donorMainImagew"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/donorMainImagew"
+            app:layout_constraintTop_toTopOf="@+id/donorMainImagew" />
+
+        <Button
+            android:id="@+id/Register_Buttonw"
+            android:layout_width="213dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="67dp"
+            android:backgroundTint="@color/white"
+            android:text="Register"
+            android:textColor="@color/h2hgreen"
+            app:layout_constraintBottom_toBottomOf="@+id/donorMainImagew"
+            app:layout_constraintEnd_toEndOf="@+id/donorMainImagew"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/donorMainImagew"
+            app:layout_constraintTop_toBottomOf="@+id/Login_Buttonw"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

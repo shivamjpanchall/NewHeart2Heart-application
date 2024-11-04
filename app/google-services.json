@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "788543523208",
+    "project_id": "heart2heart-real",
+    "storage_bucket": "heart2heart-real.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788543523208:android:d68644b0e3814be91bd23d",
+        "android_client_info": {
+          "package_name": "com.rama.heart2heart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788543523208-hk7p8qcdtpd6803jmr1qgpkdkn7uhjil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbsOW43TfKkUsnZnRQbaE-TnBvn3LgF4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788543523208-hk7p8qcdtpd6803jmr1qgpkdkn7uhjil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

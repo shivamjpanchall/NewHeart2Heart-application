@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donor.donorMainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/donorMainImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/main_img"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <Button
+            android:id="@+id/Login_Button"
+            android:layout_width="213dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="568dp"
+            android:layout_marginEnd="99dp"
+            android:backgroundTint="@color/logo"
+            android:text="Login"
+            app:layout_constraintEnd_toEndOf="@+id/donorMainImage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/donorMainImage"
+            app:layout_constraintTop_toTopOf="@+id/donorMainImage" />
+
+        <Button
+            android:id="@+id/Register_Button"
+            android:layout_width="213dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="116dp"
+            android:backgroundTint="@color/white"
+            android:text="Register"
+            android:textColor="@color/logo"
+            app:layout_constraintBottom_toBottomOf="@+id/donorMainImage"
+            app:layout_constraintEnd_toEndOf="@+id/donorMainImage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/donorMainImage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
